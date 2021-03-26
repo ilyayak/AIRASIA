@@ -1,0 +1,12 @@
+.tag {
+  font-size: 13px;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 50px;
+  background: #E7E7E7;
+  transition:.3s
+}
+
+.tag_background_light-blue {
+  background: #B9EAE4;
+}

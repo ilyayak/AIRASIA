@@ -1,0 +1,36 @@
+.title_icon_fire {
+  font-size: 36px;
+  font-weight: bold;
+
+}
+
+.title_icon_fire:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  background: url(/images/icons/flame.png) center center no-repeat;
+}
+
+.title {
+  margin-left: -2px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 63px;
+}
+
+.title_color_black {
+  color: #000;
+  margin-left: -2px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 63px;
+}
+
+.title_service {
+  font-size: 72px;
+  line-height: 1;
+  margin-top: 90px;
+  margin-bottom: 110px;
+}

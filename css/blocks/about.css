@@ -1,0 +1,33 @@
+.about__front {
+  margin-bottom: 53px;
+  display: flex;
+}
+
+.about__desc {
+  padding: 70px 82px;
+  width: 778px;
+  height: 455px;
+  margin-top: 148px;
+  margin-left: -162px;
+  background: url(/images/decor/mountains.jpg) center center/cover no-repeat;
+}
+
+.about__front:before {
+  content: "";
+  display: block;
+  width: 490px;
+  height: 505px;
+  background: url(/images/decor/gates.jpg) center center/cover no-repeat;
+}
+
+.about__front:before,
+.about__desc {
+  border-radius: 5px;
+}
+
+.about__text{
+  color: #060606;
+  width: 502px;
+  margin-bottom: 51px;
+  line-height: 27px;
+}

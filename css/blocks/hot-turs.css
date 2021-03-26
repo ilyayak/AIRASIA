@@ -1,0 +1,93 @@
+.hot-turs {
+  margin-bottom: 123px;
+}
+
+.hot-turs__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hot-turs__item {
+  background: #fff;
+  color: #303030;
+  border-radius: 5px;
+  min-height: 439px;
+  width: calc(100% / 3 - 18px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.hot-turs__photo {
+  position: relative;
+  overflow: hidden;
+  min-width: 362px;
+  min-height: 144px;
+}
+
+.hot-turs__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 362px;
+  height: 144px;
+  object-fit: cover;
+}
+
+.hot-turs__item:last-child {
+  margin-right: 0;
+}
+
+.hot-turs__desc {
+  padding: 28px 20px;
+  min-height: 305px;
+}
+
+.hot-turs__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: 23px;
+}
+
+.hot-turs__content {
+  margin-left: 6px;
+  width: 271px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.hot-turs__features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hot-turs__features:last-child {
+  margin-right: 0;
+}
+
+.hot-turs__icon {
+  margin-right: 10px;
+}
+
+.hot-turs__subject {
+  color: #666;
+  font-size: 17px;
+}
+
+.hot-turs__subject:last-child {
+  margin-right: 0;
+}
+
+.hot-turs__text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #303030;
+  min-width: 324px;
+  margin-left: 3px;
+  margin-bottom: 23px;
+  line-height: 1.5;
+}

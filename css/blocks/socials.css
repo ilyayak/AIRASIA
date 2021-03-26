@@ -1,0 +1,183 @@
+.socials {
+  margin-right: 74px;
+}
+
+.socials__list {
+  display: flex;
+}
+
+.socials__item {
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  display: block;
+  cursor: pointer;
+}
+
+.socials__link_tg {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.socials__link_tg:hover:after{
+  opacity: 1;
+
+}
+.socials__link_tg:hover:before{
+  opacity:0;
+transition: .7s;
+}
+.socials__link_tg:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(/images/icons/css_sprites_socialsandoffers.png) -66px -10px;
+  opacity: 0;
+  transition: .7s;
+}
+.socials__link_tg:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(/images/icons/css_sprites_socialsandoffers.png) -10px -10px;
+}
+.socials__link_vk {
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.socials__link_vk:hover:after{
+  opacity: 1;
+}
+.socials__link_vk:hover:before{
+  opacity:0;
+  transition:.7s;
+}
+.socials__link_vk:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(/images/icons/css_sprites_socialsandoffers.png) -66px -122px;
+  opacity: 0;
+  transition: .7s;
+}
+.socials__link_vk:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(/images/icons/css_sprites_socialsandoffers.png) -10px -66px;
+
+}
+.socials__link_fb {
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.socials__link_fb:hover:after{
+  opacity: 1;
+}
+.socials__link_fb:hover:before{
+  opacity:0;
+  transition:.7s;
+}
+.socials__link_fb:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(/images/icons/css_sprites_socialsandoffers.png) -122px -10px;
+  opacity: 0;
+  transition: .7s;
+}
+.socials__link_fb:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(/images/icons/css_sprites_socialsandoffers.png) -66px -66px;
+
+}
+.socials__link_inst {
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.socials__link_inst:hover:after{
+  opacity: 1;
+}
+.socials__link_inst:hover:before{
+  opacity:0;
+  transition:.7s;
+}
+.socials__link_inst:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(/images/icons/css_sprites_socialsandoffers.png) -10px -122px;
+  opacity: 0;
+  transition: .7s;
+}
+.socials__link_inst:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(/images/icons/css_sprites_socialsandoffers.png) -122px -66px;
+
+}

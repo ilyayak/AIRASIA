@@ -1,0 +1,16 @@
+.promo__main {
+  margin-bottom: 233px;
+  width: 48%;
+}
+
+.promo__title {
+  font-size: 72px;
+  line-height: 1.23;
+  font-weight: bold;
+  margin-bottom: 26px;
+}
+
+.promo__desc {
+  font-size: 18px;
+  margin-bottom: 36px;
+}

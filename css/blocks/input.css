@@ -1,0 +1,22 @@
+.input__visible {
+  display: flex;
+  min-width: 80px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 35px;
+  padding: 10px 15px;
+
+}
+
+.input {
+  display: none;
+  transition: 1s;
+}
+.input:focus{
+  border: 1px solid #F5170E;
+}
+.input:checked~.input__visible {
+  background-color: aqua;
+  transition: 1s;
+
+}
